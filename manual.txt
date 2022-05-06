@@ -1,0 +1,3 @@
+﻿02_post_dmd3.py --- control 을 뺀 dmd 계산. ntm 까지가 원래 dmd 를 실행하고자 하는 범위 이며, ntmo 는 prediction 을 얼마나 잘하는지 테스트 하기 위한 계산.
+03_post_dmdc.py --- control을 고려한 dmd 계산.
+03_post_dmdc_predict.py --- 위의 스크립트에서 reduced-order system matrix 를 이용하여, input 이 바뀔 때, 여전히 prediction 을 잘하는지 보기위한 계산.
